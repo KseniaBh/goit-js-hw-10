@@ -2,6 +2,7 @@ import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
+import err from '../img/err.svg';
 
 
 
@@ -43,7 +44,7 @@ const options = {
       iziToast.show({
         position: 'topCenter', 
         icon: 'icon-svg',
-
+        iconUrl: err,
         iconColor: 'white',
         title: 'Error', 
         titleColor: 'white',
